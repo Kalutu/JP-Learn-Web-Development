@@ -3,33 +3,52 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Display</title>
+    <title>HTML Display</title>
     <style>
-      .heading {
-        color: blue;
+      .highlight {
+        color: turquoise;
+      }
+
+      .blue-bg {
+        background-color: blue;
       }
 
       #unique {
-        background-color: tomato;
+        color: red;
       }
     </style>
   </head>
   <body>
-    <div style="background-color: darkkhaki">
-      <p class="two">This</p>
+    <!-- Block elements -->
+    <p class="highlight">This is a paragraph</p>
 
-      <h2 class="heading two">Second heading</h2>
-    </div>
-
-    <ul id="unique">
+    <ul class="blue-bg highlight">
       <li>One</li>
       <li>Two</li>
       <li>Three</li>
     </ul>
 
+    <!-- Inline elements -->
+
+    <a href="https://www.janjaprogrammers.com/">Go to JP Website</a>
+
     <img
-      src="https://th-thumbnailer.cdn-si-edu.com/bgmkh2ypz03IkiRR50I-UMaqUQc=/1000x750/filters:no_upscale():focal(1061x707:1062x708)/https://tf-cmsv2-smithsonianmag-media.s3.amazonaws.com/filer_public/55/95/55958815-3a8a-4032-ac7a-ff8c8ec8898a/gettyimages-1067956982.jpg"
-      alt="Cat photo"
+      src="https://hips.hearstapps.com/hmg-prod/images/beautiful-smooth-haired-red-cat-lies-on-the-sofa-royalty-free-image-1678488026.jpg?crop=0.668xw:1.00xh;0.119xw,0&resize=1200:*"
+      width="200"
     />
+
+    <!-- div element -->
+
+    <div style="background-color: aqua">
+      <h2 id="unique">Second heading</h2>
+      <p>This is a paragraph inside a div</p>
+    </div>
+
+    <!-- span element -->
+
+    <p>
+      This is a <span style="color: red">paragraph</span> that nests a span
+      element
+    </p>
   </body>
 </html>
