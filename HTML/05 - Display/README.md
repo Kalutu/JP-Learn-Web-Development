@@ -22,7 +22,7 @@ This is a `<span>` element inside a paragraph.
 
 The `<div>` element is often used as a container for other HTML elements.
 The `<div>` element has no required attributes, but style, class and id are common.
-When used together with CSS, the <div> element can be used to style blocks of content:
+When used together with CSS, the `<div> `element can be used to style blocks of content:
 
 ### The span Element
 
