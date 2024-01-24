@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Forms</title>
+  </head>
+  <body>
+    <form action="./index.php" method="post">
+      <fieldset>
+        <legend>Personal Information</legend>
+        <label>Name</label>
+        <input type="text" /> <br /><br />
+
+        <label>Email</label>
+        <input type="email" /> <br /><br />
+
+        <!-- select elements -->
+        <label>Choose your favourite language</label>
+        <select>
+          <option value="html" name="fav-lang">HTML</option>
+          <option value="css" name="fav-lang">CSS</option>
+          <option value="js" name="fav-lang">JS</option></select
+        ><br />
+      </fieldset>
+
+      <!-- textarea element -->
+      <fieldset>
+        <legend>Additional Information</legend>
+        <label>Any additional comments</label><br />
+        <textarea
+          name="additional-comments"
+          placeholder="Enter your message"
+          maxlength="10"
+        ></textarea
+        ><br />
+      </fieldset>
+
+      <input list="browsers" />
+      <datalist id="browsers">
+        <option value="Firefox"></option>
+        <option value="Chrome"></option>
+        <option value="Safari"></option>
+        <option value="Edge"></option>
+      </datalist>
+
+      <button>Sign up</button>
+    </form>
+  </body>
+</html>
