@@ -51,3 +51,5 @@ The course is divided into three main sections:
 ## Contributing
 
 If you find errors, have suggestions, or want to contribute additional content, please open an issue or submit a pull request. Your input is highly valued!
+
+How about phone numbers and country code?
