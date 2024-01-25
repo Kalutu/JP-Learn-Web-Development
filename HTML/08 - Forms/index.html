@@ -6,43 +6,44 @@
     <title>Forms</title>
   </head>
   <body>
-    <form action="" method="post">
+    <form action="./index.php" method="post">
       <fieldset>
         <legend>Personal Information</legend>
-        <label>Name</label>
-        <input type="text" /> <br /><br />
+        <label>Name: </label>
+        <input type="text" /><br /><br />
 
-        <label>Email</label>
-        <input type="email" /> <br /><br />
-
-        <!-- select elements -->
-        <label>Choose your favourite language</label>
-        <select>
-          <option value="html" name="fav-lang">HTML</option>
-          <option value="css" name="fav-lang">CSS</option>
-          <option value="js" name="fav-lang">JS</option></select
-        ><br />
+        <label>Email: </label>
+        <input type="email" /><br /><br />
       </fieldset>
 
-      <!-- textarea element -->
       <fieldset>
         <legend>Additional Information</legend>
-        <label>Any additional comments</label><br />
-        <textarea
-          name="additional-comments"
-          placeholder="Enter your message"
-          maxlength="10"
-        ></textarea
-        ><br />
-      </fieldset>
+        <!-- select element -->
+        <label for="languange">Choose your favourite languange: </label>
+        <select id="languange">
+          <option value="html">HTML</option>
+          <option value="css">CSS</option>
+          <option value="js" selected>JS</option></select
+        ><br /><br />
 
-      <input list="browsers" />
-      <datalist id="browsers">
-        <option value="Firefox"></option>
-        <option value="Chrome"></option>
-        <option value="Safari"></option>
-        <option value="Edge"></option>
-      </datalist>
+        <!-- textarea element -->
+        <label>Additional Information: </label>
+        <textarea
+          placeholder="Add some additional comments"
+          rows="10"
+          cols="30"
+        ></textarea
+        ><br /><br />
+        <!-- datalist element -->
+        <label>What is your favourite browser?</label>
+        <input list="browsers" />
+        <datalist id="browsers">
+          <option value="Firefox"></option>
+          <option value="Chrome"></option>
+          <option value="Edge"></option>
+          <option value="Safari"></option></datalist
+        ><br /><br />
+      </fieldset>
 
       <button>Sign up</button>
     </form>
