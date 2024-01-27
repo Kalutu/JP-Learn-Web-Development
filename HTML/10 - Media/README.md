@@ -26,7 +26,7 @@ The `<source>` element allows you to specify alternative video files which the b
 
 The text between the `<video>` and `</video>` tags will only be displayed in browsers that do not support the `<video>` element.
 
-To start a video automatically, use the autoplay attribute:
+To start a video automatically, use the autoplay attribute.
 
 ## HTML Audio
 

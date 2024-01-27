@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HTML Media</title>
+  </head>
+  <body>
+    <figure>
+      <!-- video element -->
+      <video width="320" height="240" muted autoplay controls>
+        <source src="./Outro.mp4" type="video/mp4" />
+        <!-- <track src="url" srclang="en" kind="subtitles" label="English" > -->
+        Your browser does not support the video.
+      </video>
+      <figcaption>This the outro video.</figcaption>
+    </figure>
+
+    <!-- audio element -->
+    <audio controls muted autoplay>
+      <source src="./Nights.mp3" />
+      Your browser does not support the audio.
+    </audio>
+
+    <!-- iframe element -->
+    <iframe
+      width="560"
+      height="315"
+      src="https://www.youtube.com/embed/7OeGoeAq_t8?si=GhLRFT7-rkNPGQ6S"
+      title="YouTube video player"
+      frameborder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+      allowfullscreen
+    ></iframe>
+
+    <iframe
+      src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d49477.83988173371!2d39.57752308897294!3d-4.01354178062688!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2ske!4v1706338352446!5m2!1sen!2ske"
+      width="600"
+      height="450"
+      style="border: 0"
+      allowfullscreen=""
+      loading="lazy"
+      referrerpolicy="no-referrer-when-downgrade"
+    ></iframe>
+  </body>
+</html>
