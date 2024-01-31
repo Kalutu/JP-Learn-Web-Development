@@ -1,0 +1,13 @@
+.container {
+  background-color: tomato;
+  font-size: 20px;
+}
+
+#external {
+  font-size: 20px;
+}
+
+p {
+  color: green;
+  background-color: black;
+}
