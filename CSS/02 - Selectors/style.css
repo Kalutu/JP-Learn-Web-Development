@@ -1,0 +1,25 @@
+* {
+  color: blue;
+}
+
+p {
+  text-align: center;
+}
+
+#header {
+  background-color: burlywood;
+}
+
+.nav-link {
+  text-decoration: none;
+}
+
+.large {
+  font-size: 30px;
+}
+
+p,
+.nav-link,
+#header {
+  font-weight: bold;
+}
