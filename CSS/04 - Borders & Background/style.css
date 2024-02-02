@@ -1,0 +1,13 @@
+.container {
+  height: 400px;
+  width: 500px;
+  border: 2px solid red;
+  border-radius: 10px;
+  /* background-color: burlywood; */
+  /* opacity: 0.2; */
+  /* background-image: url("./bg-gradient.jpg");
+  background-repeat: no-repeat;
+  background-position: top left;
+  background-attachment: fixed; */
+  background: url("./bg-gradient.jpg") no-repeat top left fixed;
+}
