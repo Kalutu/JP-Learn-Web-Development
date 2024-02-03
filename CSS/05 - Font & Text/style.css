@@ -1,0 +1,31 @@
+.first {
+  font-family: "Times New Roman", Times, serif;
+  font-style: normal;
+}
+
+.second {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 200;
+  text-transform: none;
+  letter-spacing: 5px;
+  line-height: 20px;
+  text-shadow: 1px 1px;
+}
+
+.third {
+  font-family: "Courier New", Courier, monospace;
+  font-size: 20px;
+  text-align: left;
+  /* vertical-align:; */
+  text-decoration: none;
+}
+
+.forth {
+  font-family: cursive;
+  color: blue;
+  background-color: burlywood;
+}
+
+.fifth {
+  font-family: "Sofia";
+}
