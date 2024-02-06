@@ -1,0 +1,13 @@
+p {
+  /* color: rgb(19, 39, 227); */
+  /* color: rgba(19, 39, 227, 1.0); */
+  /* color: #6edb66; */
+  /* color: hsl(0, 83%, 47%); */
+  color: hsla(0, 83%, 47%, 0.5);
+}
+
+.container {
+  width: 200px;
+  height: 200px;
+  background-image: conic-gradient(red, yellow, green);
+}
