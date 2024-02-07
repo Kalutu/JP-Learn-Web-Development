@@ -1,0 +1,61 @@
+div > p {
+  color: rgb(0, 0, 255);
+}
+
+/* div h4 {
+  color: #498765;
+} */
+
+p + strong {
+  color: yellowgreen;
+}
+
+p ~ h6 {
+  color: blueviolet;
+}
+
+/* a[target] {
+  text-decoration: none;
+  color: red;
+}
+
+a[target="_self"] {
+  background-color: aliceblue;
+} */
+
+/* unvisited state */
+a:link {
+  color: #ff0000;
+}
+
+/* visited state */
+a:visited {
+  color: #00ff00;
+}
+
+/* mouse over state */
+a:hover {
+  color: #ff00ff;
+}
+
+/* selected state */
+a:active {
+  color: #0000ff;
+}
+
+p::first-line {
+  color: #00ff00;
+}
+
+p::before {
+  content: "This is added text before the element";
+}
+
+p::after {
+  content: "This is added text after the element";
+}
+
+::marker {
+  color: red;
+  font-size: 23px;
+}

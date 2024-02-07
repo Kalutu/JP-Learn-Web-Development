@@ -1,3 +1,11 @@
+We can divide CSS selectors into five categories:
+
+- **Simple selectors** - select elements based on name, id, class.
+- **Combinator selectors**- select elements based on a specific relationship between them.
+- **Attribute selectors** - select elements based on an attribute or attribute value.
+- **Pseudo-class selectors** - select elements based on a certain state.
+- **Pseudo-elements selectors** - select and style a part of an element.
+
 # CSS Combinators
 
 A combinator is something that explains the relationship between the selectors.
