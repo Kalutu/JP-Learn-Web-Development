@@ -1,0 +1,40 @@
+.container {
+  width: 80%;
+  height: 700px;
+  margin: 0 auto;
+  border: 2px solid red;
+  display: flex;
+  /* justify-content: flex-start;
+  align-items: flex-start;
+  flex-flow: row wrap;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  gap: 20px; */
+}
+
+.item {
+  width: 150px;
+  height: 150px;
+  background-color: rgb(76, 49, 249);
+  border: 5px solid blue;
+  padding: 20px;
+  text-align: center;
+  font-weight: bolder;
+  border-radius: 10px;
+  font-size: 50px;
+}
+
+.item-1 {
+  flex-basis: 200px;
+  align-self: flex-start;
+  order: 0;
+}
+.item-2 {
+  flex: 1;
+  order: 0;
+}
+.item-3 {
+  flex-shrink: 0;
+  order: -1;
+}
