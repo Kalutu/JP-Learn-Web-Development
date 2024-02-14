@@ -1,0 +1,33 @@
+.container {
+  width: 80%;
+  height: 800px;
+  margin: 0 auto;
+  border: 2px solid red;
+  display: grid;
+  grid-template-rows: repeat(4, 100px);
+  grid-template-columns: repeat(4, minmax(100px, 1fr));
+}
+
+.item {
+  background-color: rgb(56, 36, 183);
+  border: 5px solid blue;
+  text-align: center;
+  font-weight: bolder;
+  border-radius: 10px;
+  font-size: 50px;
+}
+/*
+.item-1 {
+  justify-self: start;
+  align-self: start;
+}
+
+.item-2 {
+  grid-area: main;
+}
+.item-3 {
+  grid-area: aside;
+}
+.item-4 {
+  grid-area: footer;
+} */
