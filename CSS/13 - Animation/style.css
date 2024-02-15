@@ -1,0 +1,51 @@
+.container{
+    width: 200px;
+    height: 200px;
+    background-color: burlywood;
+    position: relative;
+    /* animation-name: colorChange;
+    animation-duration: 5s;
+    animation-delay: -5s;
+    animation-iteration-count: 3;
+    animation-direction: reverse;
+    animation-timing-function: ease;
+    animation-fill-mode: forwards; */
+    animation: colorChange 5s ease 2s 3 normal forwards;
+}
+
+@keyframes colorChange {
+    0% {
+        background-color: red;
+        top: 0px;
+        left: 0px;
+        transform: rotate(0deg);
+    }
+
+    25% {
+        background-color: yellow;
+        left: 500px;
+        top: 0;
+        transform: rotate(90deg);
+    }
+    
+    50% {
+        background-color: blue;
+        left: 500px;
+        top: 500px;
+        transform: rotate(180deg);
+    }
+    
+    75% {
+        background-color: green;
+        left: 0px;
+        top: 500px;
+        transform: rotate(270deg);
+    }
+    
+    100% {
+        background-color: violet;
+        top: 250px;
+        left: 250px;
+        transform: rotate(360deg);
+    }
+}
