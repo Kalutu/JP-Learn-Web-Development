@@ -1,0 +1,14 @@
+.fa-house,
+.bi-clock,
+.material-icons {
+  font-size: 40px;
+  color: blue;
+}
+
+html {
+  font-size: 20px;
+}
+
+p {
+  font-size: 1rem;
+}
