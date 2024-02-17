@@ -1,0 +1,31 @@
+:root {
+  --primaryColor: tomato;
+}
+
+body {
+  background-color: var(--primaryColor);
+}
+
+h2 {
+  border-bottom: 2px solid var(--primaryColor);
+}
+
+.container {
+  --white: #ffffff;
+  color: var(--primaryColor);
+  background-color: var(--white);
+  padding: 20px;
+}
+
+button {
+  background-color: var(--white);
+  color: var(--primaryColor);
+  border: 1px solid var(--primaryColor);
+  padding: 5px;
+}
+
+#div1 {
+  height: 500px;
+  width: 100%;
+  border: 2px solid blue;
+}
