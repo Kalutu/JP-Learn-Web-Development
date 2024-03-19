@@ -1,0 +1,65 @@
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f3f3f3;
+  color: #333;
+}
+
+.container {
+  max-width: 800px;
+  margin: 20px auto;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  border-radius: 10px;
+}
+
+header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+header h1 {
+  color: #333;
+  font-size: 2em;
+  margin: 0;
+}
+
+.card {
+  background-color: #f8f8f8;
+  border: 1px solid #ddd;
+  padding: 15px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+.card h2 {
+  color: #333;
+}
+
+ol {
+  list-style-type: none;
+  padding: 0;
+}
+
+ol li {
+  margin-bottom: 10px;
+}
+
+/* YOUR CSS GOES HERE */
+P {
+  color: black;
+}
+
+/* ENDCSS */
+
+footer {
+  text-align: end;
+  margin-top: 20px;
+}
+
+footer p {
+  margin: 0;
+  color: #777;
+}
